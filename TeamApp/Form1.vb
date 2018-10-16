@@ -14,9 +14,9 @@
 
     ' Ends Here
     'Ata
-    Dim Atasfakevar = 0
+    Dim Atasfakevar = -3
     Dim boi = 1
-
+    Dim broimabackurminecraftacount = 100000000000000000000000000
 
 
 
