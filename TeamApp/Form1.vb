@@ -12,7 +12,8 @@
 
     ' Ends Here
     'Ata
-
+    Dim Atasfakevar = 0
+    Dim boi = 1
 
 
 
