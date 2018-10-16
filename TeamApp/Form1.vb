@@ -3,6 +3,7 @@
     Dim garden = 15
     Dim kelton = 18
     Dim richard
+    Dim test = 0
 
 
 
