@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Divide2 = New System.Windows.Forms.Button()
         Me.Mixed1 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Clear_Btn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -44,7 +45,7 @@ Partial Class Form1
         'Add1
         '
         Me.Add1.Location = New System.Drawing.Point(9, 27)
-        Me.Add1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Add1.Margin = New System.Windows.Forms.Padding(2)
         Me.Add1.Name = "Add1"
         Me.Add1.Size = New System.Drawing.Size(88, 23)
         Me.Add1.TabIndex = 1
@@ -54,7 +55,7 @@ Partial Class Form1
         'Minus1
         '
         Me.Minus1.Location = New System.Drawing.Point(9, 54)
-        Me.Minus1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Minus1.Margin = New System.Windows.Forms.Padding(2)
         Me.Minus1.Name = "Minus1"
         Me.Minus1.Size = New System.Drawing.Size(88, 23)
         Me.Minus1.TabIndex = 2
@@ -64,7 +65,7 @@ Partial Class Form1
         'Multiply2
         '
         Me.Multiply2.Location = New System.Drawing.Point(9, 82)
-        Me.Multiply2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Multiply2.Margin = New System.Windows.Forms.Padding(2)
         Me.Multiply2.Name = "Multiply2"
         Me.Multiply2.Size = New System.Drawing.Size(88, 23)
         Me.Multiply2.TabIndex = 3
@@ -74,7 +75,7 @@ Partial Class Form1
         'Divide2
         '
         Me.Divide2.Location = New System.Drawing.Point(9, 110)
-        Me.Divide2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Divide2.Margin = New System.Windows.Forms.Padding(2)
         Me.Divide2.Name = "Divide2"
         Me.Divide2.Size = New System.Drawing.Size(88, 23)
         Me.Divide2.TabIndex = 4
@@ -100,11 +101,22 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Clear_Btn
+        '
+        Me.Clear_Btn.Location = New System.Drawing.Point(621, 307)
+        Me.Clear_Btn.Margin = New System.Windows.Forms.Padding(2)
+        Me.Clear_Btn.Name = "Clear_Btn"
+        Me.Clear_Btn.Size = New System.Drawing.Size(88, 34)
+        Me.Clear_Btn.TabIndex = 7
+        Me.Clear_Btn.Text = "Clear"
+        Me.Clear_Btn.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(715, 343)
+        Me.Controls.Add(Me.Clear_Btn)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Mixed1)
         Me.Controls.Add(Me.Divide2)
@@ -125,4 +137,5 @@ Partial Class Form1
     Friend WithEvents Divide2 As Button
     Friend WithEvents Mixed1 As Button
     Friend WithEvents Button1 As Button
+    Friend WithEvents Clear_Btn As Button
 End Class
