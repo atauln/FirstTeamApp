@@ -42,42 +42,4 @@
         NumInt = 0
         RefreshLabel()
     End Sub
-    'Sami
 
-
-
-
-
-
-
-
-
-    ' Ends Here
-    'Ata
-
-
-
-
-
-
-
-
-
-
-    'Ends Here
-    'Kelton
-
-
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> 854b3298bb252a94c29bbd01e26578e3b0ab7f42
-End Class
