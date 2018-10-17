@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     Public Sub RefreshLabel()
         Label1.Text = NumInt
     End Sub
@@ -70,6 +71,5 @@
 
 
 
-
-    'Ends Here
+>>>>>>> 854b3298bb252a94c29bbd01e26578e3b0ab7f42
 End Class
