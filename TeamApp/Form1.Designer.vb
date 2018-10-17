@@ -27,6 +27,7 @@ Partial Class Form1
         Me.Minus1 = New System.Windows.Forms.Button()
         Me.Multiply2 = New System.Windows.Forms.Button()
         Me.Divide2 = New System.Windows.Forms.Button()
+        Me.Mixed1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -79,11 +80,22 @@ Partial Class Form1
         Me.Divide2.Text = "Divide 2"
         Me.Divide2.UseVisualStyleBackColor = True
         '
+        'Mixed1
+        '
+        Me.Mixed1.Location = New System.Drawing.Point(9, 137)
+        Me.Mixed1.Margin = New System.Windows.Forms.Padding(2)
+        Me.Mixed1.Name = "Mixed1"
+        Me.Mixed1.Size = New System.Drawing.Size(88, 34)
+        Me.Mixed1.TabIndex = 5
+        Me.Mixed1.Text = "Multiply 2 Minus 3"
+        Me.Mixed1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Mixed1)
         Me.Controls.Add(Me.Divide2)
         Me.Controls.Add(Me.Multiply2)
         Me.Controls.Add(Me.Minus1)
@@ -100,4 +112,5 @@ Partial Class Form1
     Friend WithEvents Minus1 As Button
     Friend WithEvents Multiply2 As Button
     Friend WithEvents Divide2 As Button
+    Friend WithEvents Mixed1 As Button
 End Class

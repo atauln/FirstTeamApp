@@ -1,5 +1,4 @@
 ﻿Public Class Form1
-
     Public Sub RefreshLabel()
         Label1.Text = NumInt
     End Sub
@@ -24,6 +23,48 @@
         RefreshLabel()
     End Sub
 
+    Private Sub Mixed1_Click(sender As Object, e As EventArgs) Handles Mixed1.Click
+        NumInt = NumInt * 2
+        NumInt = NumInt - 3
+        RefreshLabel()
+    End Sub
+    'Sami
 
 
+
+
+
+
+
+
+
+    ' Ends Here
+    'Ata
+
+
+
+
+
+
+
+
+
+
+    'Ends Here
+    'Kelton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    'Ends Here
 End Class
