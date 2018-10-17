@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     Public Sub RefreshLabel()
         Label1.Text = NumInt
     End Sub
@@ -34,6 +35,11 @@
         NumInt = NumInt + 2
         NumInt = NumInt * 2
         NumInt = NumInt - 3
+        RefreshLabel()
+    End Sub
+
+    Private Sub Clear_Btn_Click(sender As Object, e As EventArgs) Handles Clear_Btn.Click
+        NumInt = 0
         RefreshLabel()
     End Sub
     'Sami
@@ -73,6 +79,5 @@
 
 
 
-
-    'Ends Here
+>>>>>>> 854b3298bb252a94c29bbd01e26578e3b0ab7f42
 End Class
