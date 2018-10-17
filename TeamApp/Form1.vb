@@ -42,4 +42,4 @@
         NumInt = 0
         RefreshLabel()
     End Sub
-
+End Class
