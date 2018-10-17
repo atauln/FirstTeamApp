@@ -5,6 +5,8 @@
     End Sub
     'declare new variable (NumInt)
     Dim NumInt = 0
+    'declare new variable (f)
+    Dim f = 1
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Add1.Click
         NumInt = NumInt + 1
         RefreshLabel()
@@ -41,5 +43,20 @@
     Private Sub Clear_Btn_Click(sender As Object, e As EventArgs) Handles Clear_Btn.Click
         NumInt = 0
         RefreshLabel()
+    End Sub
+
+    Private Sub MixedVis_Btn_Click(sender As Object, e As EventArgs) Handles MixedVis_Btn.Click
+        If f = 0 Then
+            f = 1
+            Mixed1.Visible = False
+            Mixed2.Visible = False
+            Exit Sub
+        End If
+        If f = 1 Then
+            f = 0
+            Mixed1.Visible = True
+            Mixed2.Visible = True
+            Exit Sub
+        End If
     End Sub
 End Class
