@@ -1,41 +1,11 @@
 ﻿Public Class Form1
-    'Sami
+    Dim NumInt = 0
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        NumInt = NumInt + 1
+    End Sub
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        NumInt = NumInt * 2
+    End Sub
 
 
-
-
-
-
-
-
-
-    ' Ends Here
-    'Ata
-
-
-
-
-
-
-
-
-
-
-    'Ends Here
-    'Kelton
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    'Ends Here
 End Class
