@@ -30,8 +30,11 @@
         RefreshLabel()
     End Sub
 
-    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
-
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Mixed2.Click
+        NumInt = NumInt + 2
+        NumInt = NumInt * 2
+        NumInt = NumInt - 3
+        RefreshLabel()
     End Sub
     'Sami
 
