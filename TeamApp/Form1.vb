@@ -22,6 +22,12 @@
         NumInt = NumInt / 2
         RefreshLabel()
     End Sub
+
+    Private Sub Mixed1_Click(sender As Object, e As EventArgs) Handles Mixed1.Click
+        NumInt = NumInt * 2
+        NumInt = NumInt - 3
+        RefreshLabel()
+    End Sub
     'Sami
 
 
