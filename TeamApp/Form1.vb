@@ -1,4 +1,5 @@
 ﻿Public Class Form1
+
     Public Sub RefreshLabel()
         Label1.Text = NumInt
     End Sub
@@ -22,43 +23,7 @@
         NumInt = NumInt / 2
         RefreshLabel()
     End Sub
-    'Sami
 
 
 
-
-
-
-
-
-
-    ' Ends Here
-    'Ata
-
-
-
-
-
-
-
-
-
-
-    'Ends Here
-    'Kelton
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    'Ends Here
 End Class
