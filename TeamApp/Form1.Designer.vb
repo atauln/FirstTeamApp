@@ -23,68 +23,72 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Add1 = New System.Windows.Forms.Button()
+        Me.Minus1 = New System.Windows.Forms.Button()
+        Me.Multiply2 = New System.Windows.Forms.Button()
+        Me.Divide2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
         '
-        Me.Label1.Location = New System.Drawing.Point(144, 33)
+        Me.Label1.Location = New System.Drawing.Point(108, 27)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(677, 327)
+        Me.Label1.Size = New System.Drawing.Size(508, 266)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "0"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Button1
+        'Add1
         '
-        Me.Button1.Location = New System.Drawing.Point(12, 33)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(117, 28)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Add1.Location = New System.Drawing.Point(9, 27)
+        Me.Add1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Add1.Name = "Add1"
+        Me.Add1.Size = New System.Drawing.Size(88, 23)
+        Me.Add1.TabIndex = 1
+        Me.Add1.Text = "Add 1"
+        Me.Add1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'Minus1
         '
-        Me.Button2.Location = New System.Drawing.Point(12, 67)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(117, 28)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Minus1.Location = New System.Drawing.Point(9, 54)
+        Me.Minus1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Minus1.Name = "Minus1"
+        Me.Minus1.Size = New System.Drawing.Size(88, 23)
+        Me.Minus1.TabIndex = 2
+        Me.Minus1.Text = "Minus 1"
+        Me.Minus1.UseVisualStyleBackColor = True
         '
-        'Button3
+        'Multiply2
         '
-        Me.Button3.Location = New System.Drawing.Point(12, 101)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(117, 28)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Multiply2.Location = New System.Drawing.Point(9, 82)
+        Me.Multiply2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Multiply2.Name = "Multiply2"
+        Me.Multiply2.Size = New System.Drawing.Size(88, 23)
+        Me.Multiply2.TabIndex = 3
+        Me.Multiply2.Text = "Multiply 2"
+        Me.Multiply2.UseVisualStyleBackColor = True
         '
-        'Button4
+        'Divide2
         '
-        Me.Button4.Location = New System.Drawing.Point(12, 135)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(117, 28)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Divide2.Location = New System.Drawing.Point(9, 110)
+        Me.Divide2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Divide2.Name = "Divide2"
+        Me.Divide2.Size = New System.Drawing.Size(88, 23)
+        Me.Divide2.TabIndex = 4
+        Me.Divide2.Text = "Divide 2"
+        Me.Divide2.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Divide2)
+        Me.Controls.Add(Me.Multiply2)
+        Me.Controls.Add(Me.Minus1)
+        Me.Controls.Add(Me.Add1)
         Me.Controls.Add(Me.Label1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -92,8 +96,8 @@ Partial Class Form1
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents Add1 As Button
+    Friend WithEvents Minus1 As Button
+    Friend WithEvents Multiply2 As Button
+    Friend WithEvents Divide2 As Button
 End Class
