@@ -57,6 +57,7 @@
             Mixed1.Visible = False
             Mixed2.Visible = False
             Mixed3.Visible = False
+            Mixed4.Visible = False
             Exit Sub
         End If
         If f = 1 Then
@@ -64,7 +65,16 @@
             Mixed1.Visible = True
             Mixed2.Visible = True
             Mixed3.Visible = True
+            Mixed4.Visible = True
             Exit Sub
         End If
+    End Sub
+
+    Private Sub Button1_Click_2(sender As Object, e As EventArgs) Handles Mixed4.Click
+        NumInt = NumInt / 7
+        NumInt = NumInt + 2
+        NumInt = NumInt * 2
+        NumInt = NumInt - 3
+        RefreshLabel()
     End Sub
 End Class

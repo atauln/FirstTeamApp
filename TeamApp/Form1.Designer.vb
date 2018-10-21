@@ -32,6 +32,7 @@ Partial Class Form1
         Me.Mixed2 = New System.Windows.Forms.Button()
         Me.MixedVis_Btn = New System.Windows.Forms.Button()
         Me.Mixed3 = New System.Windows.Forms.Button()
+        Me.Mixed4 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -127,19 +128,30 @@ Partial Class Form1
         '
         'Mixed3
         '
-        Me.Mixed3.Location = New System.Drawing.Point(14, 216)
+        Me.Mixed3.Location = New System.Drawing.Point(9, 216)
         Me.Mixed3.Name = "Mixed3"
-        Me.Mixed3.Size = New System.Drawing.Size(83, 34)
+        Me.Mixed3.Size = New System.Drawing.Size(88, 34)
         Me.Mixed3.TabIndex = 10
         Me.Mixed3.Text = "Divide 3 Add 2 Multiply 2"
         Me.Mixed3.UseVisualStyleBackColor = True
         Me.Mixed3.Visible = False
+        '
+        'Mixed4
+        '
+        Me.Mixed4.Location = New System.Drawing.Point(9, 256)
+        Me.Mixed4.Name = "Mixed4"
+        Me.Mixed4.Size = New System.Drawing.Size(88, 47)
+        Me.Mixed4.TabIndex = 11
+        Me.Mixed4.Text = "Divide 7 Add 2 Multiply 2 Minus 3"
+        Me.Mixed4.UseVisualStyleBackColor = True
+        Me.Mixed4.Visible = False
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(715, 343)
+        Me.Controls.Add(Me.Mixed4)
         Me.Controls.Add(Me.Mixed3)
         Me.Controls.Add(Me.MixedVis_Btn)
         Me.Controls.Add(Me.Mixed2)
@@ -166,4 +178,5 @@ Partial Class Form1
     Friend WithEvents Mixed2 As Button
     Friend WithEvents MixedVis_Btn As Button
     Friend WithEvents Mixed3 As Button
+    Friend WithEvents Mixed4 As Button
 End Class
