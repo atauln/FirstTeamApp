@@ -31,6 +31,7 @@ Partial Class Form1
         Me.Clear_Btn = New System.Windows.Forms.Button()
         Me.Mixed2 = New System.Windows.Forms.Button()
         Me.MixedVis_Btn = New System.Windows.Forms.Button()
+        Me.Mixed3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -124,11 +125,22 @@ Partial Class Form1
         Me.MixedVis_Btn.Text = "Mixed Numbers"
         Me.MixedVis_Btn.UseVisualStyleBackColor = True
         '
+        'Mixed3
+        '
+        Me.Mixed3.Location = New System.Drawing.Point(14, 216)
+        Me.Mixed3.Name = "Mixed3"
+        Me.Mixed3.Size = New System.Drawing.Size(83, 34)
+        Me.Mixed3.TabIndex = 10
+        Me.Mixed3.Text = "Divide 3 Add 2 Multiply 2"
+        Me.Mixed3.UseVisualStyleBackColor = True
+        Me.Mixed3.Visible = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(715, 343)
+        Me.Controls.Add(Me.Mixed3)
         Me.Controls.Add(Me.MixedVis_Btn)
         Me.Controls.Add(Me.Mixed2)
         Me.Controls.Add(Me.Clear_Btn)
@@ -153,4 +165,5 @@ Partial Class Form1
     Friend WithEvents Clear_Btn As Button
     Friend WithEvents Mixed2 As Button
     Friend WithEvents MixedVis_Btn As Button
+    Friend WithEvents Mixed3 As Button
 End Class
