@@ -77,4 +77,9 @@
         NumInt = NumInt - 3
         RefreshLabel()
     End Sub
+
+    Private Sub Button1_Click_3(sender As Object, e As EventArgs) Handles Square.Click
+        NumInt = NumInt * NumInt
+        RefreshLabel()
+    End Sub
 End Class
