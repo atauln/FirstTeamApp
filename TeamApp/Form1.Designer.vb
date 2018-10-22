@@ -34,6 +34,7 @@ Partial Class Form1
         Me.Mixed3 = New System.Windows.Forms.Button()
         Me.Mixed4 = New System.Windows.Forms.Button()
         Me.Square = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -88,7 +89,7 @@ Partial Class Form1
         '
         'Mixed1
         '
-        Me.Mixed1.Location = New System.Drawing.Point(9, 171)
+        Me.Mixed1.Location = New System.Drawing.Point(9, 159)
         Me.Mixed1.Margin = New System.Windows.Forms.Padding(2)
         Me.Mixed1.Name = "Mixed1"
         Me.Mixed1.Size = New System.Drawing.Size(88, 34)
@@ -109,7 +110,7 @@ Partial Class Form1
         '
         'Mixed2
         '
-        Me.Mixed2.Location = New System.Drawing.Point(9, 210)
+        Me.Mixed2.Location = New System.Drawing.Point(9, 198)
         Me.Mixed2.Name = "Mixed2"
         Me.Mixed2.Size = New System.Drawing.Size(88, 34)
         Me.Mixed2.TabIndex = 8
@@ -129,7 +130,7 @@ Partial Class Form1
         '
         'Mixed3
         '
-        Me.Mixed3.Location = New System.Drawing.Point(9, 250)
+        Me.Mixed3.Location = New System.Drawing.Point(9, 238)
         Me.Mixed3.Name = "Mixed3"
         Me.Mixed3.Size = New System.Drawing.Size(88, 34)
         Me.Mixed3.TabIndex = 10
@@ -139,7 +140,7 @@ Partial Class Form1
         '
         'Mixed4
         '
-        Me.Mixed4.Location = New System.Drawing.Point(9, 290)
+        Me.Mixed4.Location = New System.Drawing.Point(9, 278)
         Me.Mixed4.Name = "Mixed4"
         Me.Mixed4.Size = New System.Drawing.Size(88, 47)
         Me.Mixed4.TabIndex = 11
@@ -151,16 +152,26 @@ Partial Class Form1
         '
         Me.Square.Location = New System.Drawing.Point(9, 120)
         Me.Square.Name = "Square"
-        Me.Square.Size = New System.Drawing.Size(88, 46)
+        Me.Square.Size = New System.Drawing.Size(88, 34)
         Me.Square.TabIndex = 12
         Me.Square.Text = "Square Number"
         Me.Square.UseVisualStyleBackColor = True
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(621, 25)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(76, 62)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(713, 370)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Square)
         Me.Controls.Add(Me.Mixed4)
         Me.Controls.Add(Me.Mixed3)
@@ -191,4 +202,5 @@ Partial Class Form1
     Friend WithEvents Mixed3 As Button
     Friend WithEvents Mixed4 As Button
     Friend WithEvents Square As Button
+    Friend WithEvents Button1 As Button
 End Class
