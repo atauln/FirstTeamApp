@@ -34,6 +34,7 @@ Partial Class Form1
         Me.Mixed3 = New System.Windows.Forms.Button()
         Me.Mixed4 = New System.Windows.Forms.Button()
         Me.Square = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
@@ -157,11 +158,20 @@ Partial Class Form1
         Me.Square.Text = "Square Number"
         Me.Square.UseVisualStyleBackColor = True
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(620, 95)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 14
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(621, 25)
+        Me.Button1.Location = New System.Drawing.Point(621, 27)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(76, 62)
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 13
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
@@ -171,6 +181,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(713, 370)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Square)
         Me.Controls.Add(Me.Mixed4)
@@ -202,5 +213,6 @@ Partial Class Form1
     Friend WithEvents Mixed3 As Button
     Friend WithEvents Mixed4 As Button
     Friend WithEvents Square As Button
+    Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
 End Class
