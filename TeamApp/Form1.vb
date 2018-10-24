@@ -11,27 +11,32 @@
     Dim TimesButtonsPressed = 0
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Add1.Click
         NumInt = NumInt + 1
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Minus1.Click
         NumInt = NumInt - 1
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Multiply2.Click
         NumInt = NumInt * 2
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Divide2.Click
         NumInt = NumInt / 2
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Mixed1_Click(sender As Object, e As EventArgs) Handles Mixed1.Click
         NumInt = NumInt * 2
         NumInt = NumInt - 3
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
@@ -39,11 +44,13 @@
         NumInt = NumInt + 2
         NumInt = NumInt * 2
         NumInt = NumInt - 3
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Clear_Btn_Click(sender As Object, e As EventArgs) Handles Clear_Btn.Click
         NumInt = 0
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
@@ -51,6 +58,7 @@
         NumInt = NumInt / 3
         NumInt = NumInt + 2
         NumInt = NumInt * 2
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
     Private Sub MixedVis_Btn_Click(sender As Object, e As EventArgs) Handles MixedVis_Btn.Click
@@ -77,15 +85,22 @@
         NumInt = NumInt + 2
         NumInt = NumInt * 2
         NumInt = NumInt - 3
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Button1_Click_3(sender As Object, e As EventArgs) Handles Square.Click
         NumInt = NumInt * NumInt
+        TimesButtonsPressed += 1
         RefreshLabel()
     End Sub
 
     Private Sub Mixed5_Click(sender As Object, e As EventArgs) Handles Mixed5.Click
-
+        NumInt = TimesButtonsPressed
+        NumInt *= 2
+        NumInt /= 3
+        NumInt -= 4
+        RefreshLabel()
+        TimesButtonsPressed += 1
     End Sub
 End Class

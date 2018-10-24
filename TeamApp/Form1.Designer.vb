@@ -161,9 +161,9 @@ Partial Class Form1
         '
         Me.Mixed5.Location = New System.Drawing.Point(624, 12)
         Me.Mixed5.Name = "Mixed5"
-        Me.Mixed5.Size = New System.Drawing.Size(77, 76)
+        Me.Mixed5.Size = New System.Drawing.Size(77, 86)
         Me.Mixed5.TabIndex = 13
-        Me.Mixed5.Text = "Multiply The Times Button Pressed By 2 Divided By 3 Minus 4"
+        Me.Mixed5.Text = "Multiply The Times Buttons Pressed By 2 Divided By 3 Minus 4"
         Me.Mixed5.UseVisualStyleBackColor = True
         '
         'Form1
