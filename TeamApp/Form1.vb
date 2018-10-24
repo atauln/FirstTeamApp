@@ -7,6 +7,8 @@
     Dim NumInt = 0
     'declare new variable (f)
     Dim f = 1
+    'declare new variable (TimesButtonsPressed)
+    Dim TimesButtonsPressed = 0
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Add1.Click
         NumInt = NumInt + 1
         RefreshLabel()
@@ -83,13 +85,7 @@
         RefreshLabel()
     End Sub
 
-    Private Sub Button1_Click_4(sender As Object, e As EventArgs) Handles Button1.Click
-        NumInt = NumInt * NumInt
-        RefreshLabel()
-    End Sub
+    Private Sub Mixed5_Click(sender As Object, e As EventArgs) Handles Mixed5.Click
 
-    Private Sub Button2_Click_1(sender As Object, e As EventArgs)
-        NumInt = NumInt / NumInt
-        RefreshLabel()
     End Sub
 End Class
