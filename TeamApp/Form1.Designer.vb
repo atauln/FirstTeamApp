@@ -35,6 +35,7 @@ Partial Class Form1
         Me.Mixed4 = New System.Windows.Forms.Button()
         Me.Square = New System.Windows.Forms.Button()
         Me.Mixed5 = New System.Windows.Forms.Button()
+        Me.SuperClear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -166,11 +167,21 @@ Partial Class Form1
         Me.Mixed5.Text = "Multiply The Times Buttons Pressed By 2 Divided By 3 Minus 4"
         Me.Mixed5.UseVisualStyleBackColor = True
         '
+        'SuperClear
+        '
+        Me.SuperClear.Location = New System.Drawing.Point(446, 325)
+        Me.SuperClear.Name = "SuperClear"
+        Me.SuperClear.Size = New System.Drawing.Size(77, 34)
+        Me.SuperClear.TabIndex = 14
+        Me.SuperClear.Text = "Super Clear"
+        Me.SuperClear.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(713, 370)
+        Me.Controls.Add(Me.SuperClear)
         Me.Controls.Add(Me.Mixed5)
         Me.Controls.Add(Me.Square)
         Me.Controls.Add(Me.Mixed4)
@@ -203,4 +214,5 @@ Partial Class Form1
     Friend WithEvents Mixed4 As Button
     Friend WithEvents Square As Button
     Friend WithEvents Mixed5 As Button
+    Friend WithEvents SuperClear As Button
 End Class

@@ -103,4 +103,11 @@
         RefreshLabel()
         TimesButtonsPressed += 1
     End Sub
+
+    Private Sub Button1_Click_4(sender As Object, e As EventArgs) Handles SuperClear.Click
+        TimesButtonsPressed = 0
+        NumInt = 0
+        f = 0
+        RefreshLabel()
+    End Sub
 End Class
